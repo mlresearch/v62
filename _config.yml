@@ -11,6 +11,7 @@ location: Lugano, Switzerland
 volume: 62
 layout: proceedings
 series: Proceedings of Machine Learning Research
+issn: 2640-3498
 id: isipta17
 month: 0
 cycles: false
@@ -43,8 +44,11 @@ baseurl: "/v62"
 twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
+plugins:
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
 permalink: "/:title.html"
-github:
+ghub:
   edit: true
   repository: v62
 display:
@@ -68,5 +72,6 @@ conference:
 analytics:
   google:
     tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 # Site settings
-# Auto generated from /Users/mreid/mlresearch/v62/isipta17.bib
+# Original source:  /Users/neil/mlresearch/bibtex.bib
