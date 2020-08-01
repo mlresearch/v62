@@ -7,6 +7,8 @@ start: 2017-07-10
 end: 2017-07-14
 published: 2017-06-20
 url: http://proceedings.mlr.press
+author:
+  name: PMLR
 location: Lugano, Switzerland
 volume: 62
 layout: proceedings
