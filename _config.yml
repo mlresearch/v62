@@ -1,6 +1,7 @@
 ---
 booktitle: 'Proceedings of the Tenth International Symposium on Imprecise Probability:
   Theories and Applications'
+orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 shortname: ISIPTA '17
 year: '2017'
 start: 2017-07-10
@@ -47,6 +48,10 @@ baseurl: "/v62"
 twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
 style: pmlr
 plugins:
 - jekyll-feed
@@ -78,6 +83,5 @@ conference:
 analytics:
   google:
     tracking_id: UA-92432422-1
-orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 # Site settings
 # Original source:  /Users/neil/mlresearch/bibtex.bib
